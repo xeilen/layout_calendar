@@ -30,7 +30,7 @@ body {
   margin: $size auto;
   width: 7 * $size + 7px;
 
-  > div {
+  div {
     position: relative;
 
     display: flex;
@@ -44,12 +44,13 @@ body {
 
     background: #eee;
     border: 1px solid black;
-    transition: 0.5s;
+    transition: background-color 0.5s, transform 0.5s;
 
     &:hover {
       background: pink;
       transform: translateY(-20px);
       cursor: pointer;
+
     }
   }
 
